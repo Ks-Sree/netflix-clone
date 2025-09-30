@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movies</title>
+  <style>
+    body {
+      background-color: #111;
+      color: white;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .section-title {
+      font-size: 1.5rem;
+      margin: 30px 0 10px;
+    }
+
+    .movie-section {
+      display: flex;
+      overflow-x: auto;
+      gap: 20px;
+      padding-bottom: 10px;
+    }
+
+    .movie-section::-webkit-scrollbar {
+      display: none;
+    }
+
+    .movie-card {
+      min-width: 200px;
+      flex-shrink: 0;
+    }
+
+    .movie-card img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .movie-title {
+      text-align: center;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black px-3">
+    <a class="navbar-brand" href="#">NETFLIX</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-3">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="tvshows.html">TV Shows</a></li>
+        <li class="nav-item"><a class="nav-link" href="movies.html">Movies</a></li>
+        <li class="nav-item"><a class="nav-link" href="mylist.html">My List</a></li>
+      </ul>
+      <div class="ms-auto">
+        <input class="form-control form-control-sm bg-dark text-white border-0" style="width: 150px;" placeholder="Search" />
+      </div>
+    </div>
+  </nav>
+
+
+
+  <section class="tv-section">
+  <div class="container">
+    <h1 class="tv-title">Movies</h1>
+    <p class="tv-description">
+Movies move us like nothing else can, whether they’re scary, funny, dramatic, romantic or anywhere in-between. So many titles, so much to experience    </p>
+  </div>
+</section>
+
+  <div class="section-title">Your Next Watch</div>
+  <div class="movie-section">
+    <div class="movie-card">
+      <img src="https://occ-0-6501-3663.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABe_rTEZKTGVUk5ecHdonY8exwJ6oWzDL7omXnBFRx6N9h4U1AS5wIDhjpD75pmxTG7t2S6wPu04q6cPYq-KZVP0ENimTPzEVuYF0IYoUxQ6J3BX3iKoSrm5T18MOvfJlh6c8HF2H3EB5hZX424gnVmCM6htQGPRL4Fg.jpg?r=7ba" alt="Raid 2" />
+      <div class="movie-title">Raid 2</div>
+    </div>
+    <div class="movie-card">
+      <img src="https://occ-0-6501-3663.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABVBV7x8o-l7bNm4cLuqaYYDq4hDLb_LSrmEf-s-VBK1r_sLXyKmzXGphIEWiquLoLKk8b1ucVj5Oz8rmYeMW6PsLvbVfK32ePNbluVIvxmGDeq3K4XgkpcPa3-JmwM4l-BuOsl1McsIbR1YfdKeqehdwkXGj_nlWfqw.jpg?r=a53" alt="HIT" />
+      <div class="movie-title">HIT: The Third Case</div>
+    </div>
+    <div class="movie-card">
+      <img src="https://occ-0-6501-3663.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABZW4Gz6sBxDyc4BOl04EvTaOev-0zKuNXqZtEIse0jcSdTNYIMEvS_ycK0FLh7SsfU2XQHYTv-iEQEJGO-GhMzzYNgJvARA91GX3y0SwIpa2sOHJ7DvqXGZ7dSo2iYrcpFtW4MAQx2OHTmXHieQEcPkGv1IwRU4D2dz-zfFdkKQL5_AusWWQfUNzMD1mMUtFulbt2GU4AQVs_eD3JRFc46jXvQ5Rfe7Eg8DcLGKXCCXgA-YbPKe2rOsRofHdQqYNYNQ.jpg?r=7aa" alt="Aap Jaisa Koi" />
+      <div class="movie-title">Aap Jaisa Koi</div>
+    </div>
+    <div class="movie-card">
+      <img src="https://occ-0-6501-3663.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABWRBjCpI7ppSe1EcvZwxIhjL5ftcMA7eCX5GWRo7XudkALnkTu5T3Bq1BW5C3hMTyXbS4Z1GszkWikUTau4gs2r7r2MeY6hWxL4.jpg?r=c15" alt="Jaat" />
+      <div class="movie-title">Jaat</div>
+    </div>
+    <div class="movie-card">
+      <img src="https://occ-0-6501-3663.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABdKLtFslnzQ--uFnZ1pA2zy3Ohn4sSYXUZ6rO9gSzozfa2qlZlb-ccbdL__tk6tdcmd02LEDHhrNKuhFYWQfS3CSh_C1GEZN6ow.jpg?r=f91" alt="Laapata Lad" />
+      <div class="movie-title">Laapata Lad</div>
+    </div>
+  </div>
+
+  <div class="section-title">Crowd Pleasers</div>
+  <div class="movie-section">
+    <div class="movie-card">
+      <img src="https://occ-0-6501-3663.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABZtFHQ2LiYk68XpOh9ACYk2e5k6TgXYNdM-yImEdYwBN8z44wGW5ZSiRSQI4lhz8iD4aRfcFMAW2dHSGueRByiP1-2bQdcVVKeqp1-NYFNPiG5eBpkVkFtlvgP8PX6_e7_45kOuwrlg2scUNrZVwyUGzGPBdEMHfGIeSNfhI53gkinEDIbTLoejPxTB7HZ0.jpg?r=662" alt="KPOP" />
+      <div class="movie-title">KPOP</div>
+    </div>
+    <div class="movie-card">
+      <img src="https://occ-0-6501-3663.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABUu8z2d5IqYcRTnqB24q9Z-U46OFmAhKs3GGTv1ns_m8mJMXtsP1InG57N1wULPjmj0t9yDmIXdjiGlXxPQX_pNlfplNiCEb7mc.jpg?r=0d9" alt="Lucky Bashkar" />
+      <div class="movie-title">Lucky Bashkar</div>
+    </div>
+    <div class="movie-card">
+      <img src="https://occ-0-6501-3663.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABYiHLjj-iU3ZQTz6MSehlNfZ1guVQfijL0ZSL5DVQLO6acKOStbK5yO1Hc1dClfjJiOA8bpqiJTTsjtayH_GkbkWSfzg0o-JrIk.jpg?r=69d" alt="Pushpa 2" />
+      <div class="movie-title">Pushpa 2</div>
+    </div>
+    <div class="movie-card">
+      <img src="https://occ-0-6501-3663.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABWA9tjbFZtZRcraESsTiaF3a5Ktb7_8WVMXd62pI2eCaTA-o8_966wgOccgoiIrW09rduTOr5glycMnCeUA6k8gRNzd_G1iCJM8.jpg?r=766" alt="Chhaava" />
+      <div class="movie-title">Chhaava</div>
+    </div>
+    <div class="movie-card">
+      <img src="https://occ-0-6501-3663.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABUi5a8-uSj72UvMc6wddTu367KiPsZNIMvjeCYciKzIIXK6bQWIwXZH8Mkcke4eOiq-hLrRE5g9IQMintx_I0DBmpByxg2C3F6U.jpg?r=c53" alt="Drama Class" />
+      <div class="movie-title">Venom: The Last Dance</div>
+    </div>
+  </div>
+</body>
+</html>
